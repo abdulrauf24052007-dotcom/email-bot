@@ -4,12 +4,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TELEGRAM_TOKEN = "8241019015:AAG-b6NK2LqO9N3VyjoTfZzR7KwO4pcgwSY"
+TELEGRAM_TOKEN = "8338350825:AAF0DHPIm8zY2jPqEv7gyLtK0KTZvSgTtTA"
 ACCOUNTS_FILE = "accounts.json"
 
 SUBJECT = "Pertanyaan mengenai WhatsApp Business untuk Android"
 BODY_TEMPLATE = """Helo pihak WhatsApp,
-perkenalkan nama saya (Repzsx) saya ingin mengajukan banding tentang mendaftar nomor telefon,
+perkenalkan nama saya (Repzsx). saya ingin mengajukan banding tentang mendaftar nomor telefon,
 saat registrasi muncul teks "login tidak tersedia" mohon untuk memperbaiki masalah tersebut,
 nomor saya ({phone})
 """
